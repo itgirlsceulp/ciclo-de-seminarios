@@ -4,6 +4,10 @@
     position: fixed
 
 }
+.btn-sobre{
+    border-radius: 0 !important;
+    border-width: 2px;
+}
 
 #jumbo{
     background-image: url('img/eclipse.jpg');
