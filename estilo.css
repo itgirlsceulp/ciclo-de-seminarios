@@ -1,0 +1,70 @@
+#btn-menu{
+    opacity: 0.9;
+    text-align: left;
+    position: fixed
+
+}
+
+#jumbo{
+    background-image: url('img/eclipse.jpg');
+    text-align: center;
+    color: white;
+    height: 400px;
+}
+
+#jumbed{
+    background-image: url('img/eclipse.jpg');
+    text-align: center;
+    color: white;
+    height: 250px;
+}
+#resumo{
+    background-color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+#quantitativos{
+    background-color: #c8e3f3;
+}
+
+#tamanho2{
+    font-size: 20px;
+    color: black;
+}
+
+#tamanho3{
+    font-size: 30px;
+    color: #696969
+}
+
+#tamanho4{
+    font-size: 40px;
+    color: #4169E1
+}
+
+#tamanho5{
+    font-size: 50px;
+    color: #3D332B
+}
+
+#tamanho6{
+    font-size: 60px;
+    color: #708090
+}
+footer{
+    background-color: #131313;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    height: 200px;
+    padding-top: 70px
+}
+
+/* página de listas/edições/palestras */
+
+#imglista{
+    width: 150px;
+    height: 100px;
+    margin-left: 70px
+    
+}
