@@ -2,21 +2,23 @@
     opacity: 0.9;
     text-align: left;
     position: fixed
-
 }
-
 #jumbo{
-    background-image: url('img/eclipse.jpg');
-    text-align: center;
-    color: white;
-    height: 400px;
+    background: url('img/ciclo-de-seminarios-capa.jpg') center #131313; 
+    height: 470px;
+    width:100%;
+    background-repeat: no-repeat;
+}
+#tamanhomedio{
+    width: 80%;
+    margin-left: 40px;
 }
 
 #jumbed{
-    background-image: url('img/eclipse.jpg');
+    background: #131313;
     text-align: center;
     color: white;
-    height: 250px;
+    height: 300px;
 }
 #resumo{
     background-color: white;
@@ -25,31 +27,6 @@
 }
 #quantitativos{
     background-color: #c8e3f3;
-}
-
-#tamanho2{
-    font-size: 20px;
-    color: black;
-}
-
-#tamanho3{
-    font-size: 30px;
-    color: #696969
-}
-
-#tamanho4{
-    font-size: 40px;
-    color: #4169E1
-}
-
-#tamanho5{
-    font-size: 50px;
-    color: #3D332B
-}
-
-#tamanho6{
-    font-size: 60px;
-    color: #708090
 }
 footer{
     background-color: #131313;
@@ -71,4 +48,17 @@ footer{
 
 .titulo-pagina{
     text-align: center
+}
+
+#palestranteinfo{
+    text-align: center;
+}
+
+#palestrantefoto{
+    width: 200px;
+    margin-left: 70px;
+}
+
+#palestrantebio{
+    box-sizing: inherit;
 }
