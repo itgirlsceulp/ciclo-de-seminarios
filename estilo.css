@@ -13,9 +13,12 @@
     width: 80%;
     margin-left: 40px;
 }
+.card-pal{
+    border: 0px !important;
+}
 
 #jumbed{
-    background: #131313;
+    background: #031440;
     text-align: center;
     color: white;
     height: 300px;
@@ -26,10 +29,10 @@
     font-weight: bold;
 }
 #quantitativos{
-    background-color: #c8e3f3;
+    background-color: #e6e6e6b0;
 }
 footer{
-    background-color: #131313;
+    background-color: #031440;
     color: white;
     text-align: center;
     font-size: 30px;
@@ -40,9 +43,9 @@ footer{
 /* página de listas/edições/palestras */
 
 #imglista{
-    width: 150px;
-    height: 100px;
-    margin-left: 70px
+    width: 160px;
+    height: 200px;
+    margin-left: 10px
     
 }
 
@@ -61,4 +64,30 @@ footer{
 
 #palestrantebio{
     box-sizing: inherit;
+}
+
+.jumbotron{
+    background-color: white;
+}
+
+.card-body{
+    line-height: 100%;
+}
+
+.nav-link{
+    padding:.1rem;
+}
+
+.card-title{
+    font-size:25px;
+    margin-bottom: .75rem;
+    margin-left: 2.0rem !important;
+}
+
+.pal{
+     color: #031440;
+}
+
+.container{
+    margin-bottom: 10px;
 }
