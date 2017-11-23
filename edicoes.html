@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <html>
-	<head>
-        <meta charset='utf-8'>
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><!--disponível para diversos dispositivos-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-        <link rel="stylesheet" href="estilo.css">
-		<title>Ciclo de Seminários</title>
-    </head>
-    <body>
-        <header>
-            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">LOGO</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
+<head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--disponível para diversos dispositivos-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Ciclo de Seminários</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">LOGO</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Página Inicial <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html">Página Inicial
+                            <span class="sr-only">(current)</span>
+                        </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="edicoes.html">Página das Edições</a>
@@ -26,43 +33,49 @@
                     <li class="nav-item">
                         <a class="nav-link" href="palestras.html">Página das Palestras</a>
                     </li>
-                    </ul>
-                    <form class="form-inline my-2 my-lg-0">
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
-                </div>
-            </nav>
-            <div id='jumbed' class="jumbotron jumbotron-fluid">
-                <div class="container">
-                    <h1 class="display-3">Ciclo de Seminários</h1>
-                    <p class="lead">Evento acadêmico dos cursos de Computação do CEULP/ULBRA</p>
-                </div>
+                </form>
             </div>
-        </header>
-        <section><!--lista de edições-->
+        </nav>
+        <div id='jumbed' class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-3">Ciclo de Seminários</h1>
+                <p class="lead">Evento acadêmico dos cursos de Computação do CEULP/ULBRA</p>
+            </div>
+        </div>
+    </header>
+    <section>
+        <!--lista de edições-->
+        <div class="container">
             <h1 class="titulo-pagina">Edições</h1>
-            <div class="jumbotron jumbotron-fluid">
-                <div class="container">
-                    <div class="list-group">
-                        <a href="palestras.html" class="list-group-item list-group-item-action list-group-item-primary">Edição 2017/2</a>
-                        <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Edição 2017/1</a>
-                        <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Edição 2016/2</a>
-                        <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Edição 2016/1</a>
-                        <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Edição 2015/2</a>
-                    </div>
+            <hr>
+            <div class="">
+                <div class="list-group">
+                    <strong>
+                    <a href="palestras.html" class="list-group-item active">Edição 2017/2</a>
+                    <a href="#" class="list-group-item list-group-item-action">Edição 2017/1</a>
+                    <a href="#" class="list-group-item list-group-item-action">Edição 2016/2</a>
+                    <a href="#" class="list-group-item list-group-item-action">Edição 2016/1</a>
+                    <a href="#" class="list-group-item list-group-item-action">Edição 2015/2</a>
+                    <a href="#" class="list-group-item list-group-item-action">Edição 2015/1</a>
+                    <a href="#" class="list-group-item list-group-item-action">Edição 2014/2</a>
+                    <a href="#" class="list-group-item list-group-item-action">Edição 2014/1</a>
+                </strong>
                 </div>
             </div>
-            
-            
-
-        </section><!--lista de edições-->
-        <footer>
-            <h5>
+        </div>
+    </section>
+    <!--lista de edições-->
+    <footer>
+        <h5>
             <p>CENTRO UNIVERSITÁRIO LUTERANO DE PALMAS</p>
             <p>Avenida Teotônio Segurado 1501 Sul Palmas - TO CEP 77.019-900 Caixa Postal nº 85</p>
             <p>Fone: (63) 3219-8000</p>
         </h5>
-        </footer>
-    </body>
+    </footer>
+</body>
+
 </html>
