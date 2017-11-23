@@ -91,3 +91,10 @@ footer{
 .container{
     margin-bottom: 10px;
 }
+
+.card-edicoes{
+    font-size: 25px;
+    margin-bottom: .20rem;
+    margin-left: 4.5rem !important;
+}
+
